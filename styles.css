@@ -45,4 +45,20 @@ body{
     background-repeat: no-repeat;
     background-position: center 2%;
     background-size: contain;
+    position: relative;
+}
+.controls button{
+    padding: 4px 8px;
+    background-color: #FFF;
+}
+.controls{
+    background-color: white;
+    box-shadow: 4px 4px grey;
+    width: fit-content;
+    margin-left: 24%;
+    position: absolute;
+    bottom: 11%;
+}
+img.control-icon{
+    width: 8px;
 }
