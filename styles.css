@@ -38,7 +38,7 @@ body{
 }
 .slide img {
     width: 18rem;
-    box-shadow: 0px 2px 5px #404040;
+    /* box-shadow: 0px 2px 5px #404040; */
 
 }
 .slide .image{
@@ -56,9 +56,9 @@ body{
 }
 .controls{
     background-color: white;
-    box-shadow: 4px 4px 10px grey;
+    box-shadow: 2px 2px 7px #E5E4EF;
     width: fit-content;
-    margin-left: 24%;
+    margin-left: 12%;
     position: absolute;
     bottom: 10%;
     border-radius: 26px;
