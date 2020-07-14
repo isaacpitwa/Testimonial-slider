@@ -1,6 +1,7 @@
 body{
     font-family: 'Inter',sans-serif;
     background-color: #F0F0F0;
+    color: hsl(240, 38%, 20%);
 }
 .container{
     background-color: #FFF;
