@@ -6,7 +6,7 @@ body{
 .container{
     background-color: #FFF;
     margin: 2% auto;
-    width: 80%;
+    width: 73%;
     padding: 2rem;
     background-image: url('./images/pattern-curve.svg');
     background-repeat: no-repeat;
@@ -17,12 +17,11 @@ body{
 .slide {
     display: flex;
     align-items: center;
-    padding: 12%;
 }
 .content{
     background-image: url('./images/pattern-quotes.svg');
     background-position: top -11% left 42%;
-    padding: 5%;
+    padding:5% 0 0% 15%;
     background-repeat: no-repeat;
 }
 .content h4 {
@@ -43,7 +42,7 @@ body{
 }
 .slide .image{
     background-image: url('./images/pattern-bg.svg');
-    padding: 6%;
+    padding:6% 6% 6% 0;
     background-repeat: no-repeat;
     background-position: center 2%;
     background-size: contain;
