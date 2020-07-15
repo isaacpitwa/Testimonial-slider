@@ -42,7 +42,7 @@ body{
 }
 .slide .image{
     background-image: url('./images/pattern-bg.svg');
-    padding:1% 6% 6% 0;
+    padding:6% 6% 29px;
     background-repeat: no-repeat;
     background-position: center 2%;
     background-size: contain;
@@ -72,3 +72,27 @@ img.control-icon{
     width: 8px;   
      box-shadow: none;
 }
+@media only screen and (max-width: 375px) {
+    .slide{
+      flex-direction: column-reverse;
+    }
+    .controls{
+        margin-left: 31%;
+        bottom: 2%;
+    }
+    .container{
+        background-size: 15rem;
+    }
+    .content{
+        padding-top: 8%;
+        padding-bottom: 13%;
+        background-size: 6rem;
+        margin-top: 5%;
+    }
+    .slide .image {
+        padding: 8% 8% 4%;
+    }
+    .slide img.image-commentor{
+        width: 16rem;
+    }
+  }
