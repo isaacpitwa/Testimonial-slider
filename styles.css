@@ -64,7 +64,7 @@ body{
     width: fit-content;
     margin-left: 12%;
     position: absolute;
-    bottom: 13%;
+    bottom: 5%;
     border-radius: 26px;
     padding: 4px 12px;
 }
@@ -78,7 +78,7 @@ img.control-icon{
     }
     .controls{
         margin-left: 31%;
-        bottom: 2%;
+        bottom: 1%;
     }
     .container{
         background-size: 15rem;
