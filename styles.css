@@ -6,7 +6,7 @@ body{
 .container{
     background-color: #FFF;
     margin: 2% auto;
-    width: 80%;
+    width: 73%;
     padding: 2rem;
     background-image: url('./images/pattern-curve.svg');
     background-repeat: no-repeat;
@@ -17,12 +17,11 @@ body{
 .slide {
     display: flex;
     align-items: center;
-    padding: 12%;
 }
 .content{
     background-image: url('./images/pattern-quotes.svg');
     background-position: top -11% left 42%;
-    padding: 5%;
+    padding:5% 0 0% 15%;
     background-repeat: no-repeat;
 }
 .content h4 {
@@ -43,7 +42,7 @@ body{
 }
 .slide .image{
     background-image: url('./images/pattern-bg.svg');
-    padding: 6%;
+    padding:6% 6% 29px;
     background-repeat: no-repeat;
     background-position: center 2%;
     background-size: contain;
@@ -65,12 +64,35 @@ body{
     width: fit-content;
     margin-left: 12%;
     position: absolute;
-    bottom: 10%;
+    bottom: 13%;
     border-radius: 26px;
     padding: 4px 12px;
 }
 img.control-icon{
     width: 8px;   
      box-shadow: none;
-
 }
+@media only screen and (max-width: 375px) {
+    .slide{
+      flex-direction: column-reverse;
+    }
+    .controls{
+        margin-left: 31%;
+        bottom: 2%;
+    }
+    .container{
+        background-size: 15rem;
+    }
+    .content{
+        padding-top: 8%;
+        padding-bottom: 13%;
+        background-size: 6rem;
+        margin-top: 5%;
+    }
+    .slide .image {
+        padding: 8% 8% 4%;
+    }
+    .slide img.image-commentor{
+        width: 16rem;
+    }
+  }
