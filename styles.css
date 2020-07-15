@@ -42,7 +42,7 @@ body{
 }
 .slide .image{
     background-image: url('./images/pattern-bg.svg');
-    padding:6% 6% 6% 0;
+    padding:1% 6% 6% 0;
     background-repeat: no-repeat;
     background-position: center 2%;
     background-size: contain;
@@ -64,7 +64,7 @@ body{
     width: fit-content;
     margin-left: 12%;
     position: absolute;
-    bottom: 10%;
+    bottom: 13%;
     border-radius: 26px;
     padding: 4px 12px;
 }
